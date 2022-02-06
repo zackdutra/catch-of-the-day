@@ -64,7 +64,7 @@ class Order extends React.Component {
         }, 0);
         return (
             <div className="order-wrap">
-                <h2>Order</h2>
+                <h2>Orders</h2>
                 <TransitionGroup component="ul" className='order'>
                     {orderIds.map(this.renderOrder)}
                 </TransitionGroup>
